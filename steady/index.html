@@ -23,14 +23,16 @@
 <p>Weight, height, age, sex, activity level and calorie entries are used only on your phone, to personalise the app and to suggest a daily calorie target. The suggestion is a rough estimate. It is not medical advice. These numbers are not sent to Firebase or to us.</p>
 
 <h2>4. Analytics (Google Firebase Analytics)</h2>
-<p>Steady uses Google Firebase Analytics to count anonymous events with fixed names, for example finished setup, first habit created, Pro screen opened, stats opened and backup created. It never sends anything you type, such as habit names, notes or health numbers. Firebase also receives basic device and app details (such as device model, Android version, app version) and an app install ID. This is used only to understand how the app is used and to improve it. It is not used for advertising, and the app does not use the Android advertising ID.</p>
-<p>Analytics is on by default. You can turn it off in the app at Settings, then Privacy. Turning it off stops new events. It does not delete counts already sent. Google processes this data under its own policy: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></p>
+<p>Steady uses Google Firebase Analytics to understand how the app is used and to improve it. It receives two kinds of data.</p>
+<p>First, a few events Steady sends, with fixed names and nothing you type: finished setup, first habit created, Pro screen opened, stats opened, report opened or shared, and backup created. These never include habit names, notes, names, phone numbers or health numbers.</p>
+<p>Second, data Firebase collects automatically: an app instance ID (a random ID for this install of the app), device and app information (such as device model, Android version, language and app version), automatic events (such as first open, session start and app updates), and approximate location (country or region) that Google derives from your masked IP address. If paid plans are added later, Firebase may also record purchase and subscription events, including product ID and price. Steady does not use the Android advertising ID, and the app's settings switch advertising ID collection and ad personalization off. This data is not used for advertising and is not linked to your name or contact details.</p>
+<p>Analytics is on by default. You can turn it off in the app at Settings, then Privacy. Turning it off stops new collection. It does not delete data already sent. Google processes this data under its own policy: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a> and Firebase's data information: <a href="https://firebase.google.com/support/privacy">https://firebase.google.com/support/privacy</a></p>
 
 <h2>5. Purchases</h2>
 <p>Optional Pro purchases are handled by Google Play. We only learn whether Pro is active. We do not see your payment details. If a billing service such as RevenueCat is added, this section will be updated before it is used.</p>
 
-<h2>6. Notifications and alarms</h2>
-<p>Reminders are scheduled on your phone. The optional alarm ring uses the Android "Alarms and reminders" access, which you grant yourself and can turn off in system settings.</p>
+<h2>6. Notifications, alarms and widget</h2>
+<p>Reminders are scheduled on your phone. The optional home-screen widget shows your habit progress for today, read from data on your phone, and sends nothing anywhere. The optional alarm ring uses the Android "Alarms and reminders" access, which you grant yourself and can turn off in system settings.</p>
 
 <h2>7. Backups and sharing</h2>
 <p>A backup file or shared text is created only when you choose Export or Share, and it goes where you send it. It is not encrypted. Anyone you send it to can read it. Restoring a backup reads only the text you give the app.</p>
